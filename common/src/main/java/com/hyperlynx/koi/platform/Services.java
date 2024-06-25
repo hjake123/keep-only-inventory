@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package com.hyperlynx.koi.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import com.hyperlynx.koi.Constants;
+import com.hyperlynx.koi.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 

@@ -1,8 +1,8 @@
-package com.example.examplemod;
+package com.hyperlynx.koi;
 
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleMod implements ModInitializer {
+public class KeepOnlyInventory implements ModInitializer {
     
     @Override
     public void onInitialize() {
