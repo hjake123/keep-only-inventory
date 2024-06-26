@@ -5,8 +5,6 @@ public interface IConfig {
     public boolean keepAllItems();
     public boolean keepArmor();
     public boolean keepHotbar();
-    public boolean damageDurableItems();
-    public float damageProportion();
     public boolean keepHunger();
     public int minimumSpawnHunger();
 }
