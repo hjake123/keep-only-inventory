@@ -1,0 +1,18 @@
+{
+  "koi.midnightconfig.title":"I am a title",
+  "koi.midnightconfig.text1":"I am a comment *u*",
+  "koi.midnightconfig.text2":"I am a centered comment (╯°□°）╯︵ ┻━┻",
+  "koi.midnightconfig.name":"I am a string!",
+  "koi.midnightconfig.name.tooltip":"I am a tooltip uwu \nI am a new line",
+  "koi.midnightconfig.fabric":"I am an int",
+  "koi.midnightconfig.world":"I am a double",
+  "koi.midnightconfig.showInfo":"I am a boolean",
+  "koi.midnightconfig.hello":"I am a limited int!",
+  "koi.midnightconfig.testEnum":"I am an enum!",
+  "koi.midnightconfig.enum.TestEnum.FORGE":"Slow",
+  "koi.midnightconfig.enum.TestEnum.FABRIC":"Fancy",
+  "koi.midnightconfig.enum.TestEnum.QUILT":"Fabulous",
+  "koi.midnightconfig.category.numbers": "Numbers",
+  "koi.midnightconfig.category.text": "Text",
+  "koi.midnightconfig.category.sliders": "Sliders"
+}

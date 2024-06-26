@@ -1,5 +1,7 @@
 package com.hyperlynx.koi;
 
+import com.hyperlynx.koi.platform.FabricConfig;
+import eu.midnightdust.lib.config.MidnightConfig;
 import net.fabricmc.api.ModInitializer;
 
 public class KeepOnlyInventory implements ModInitializer {
@@ -14,5 +16,6 @@ public class KeepOnlyInventory implements ModInitializer {
         // Use Fabric to bootstrap the Common mod.
         Constants.LOG.info("Hello Fabric world!");
         CommonClass.init();
+        MidnightConfig.init(Constants.MOD_ID, FabricConfig.class);
     }
 }

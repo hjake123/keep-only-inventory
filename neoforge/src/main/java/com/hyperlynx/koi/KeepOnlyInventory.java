@@ -1,6 +1,8 @@
 package com.hyperlynx.koi;
 
 
+import com.hyperlynx.koi.platform.NeoConfig;
+import eu.midnightdust.lib.config.MidnightConfig;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 
@@ -16,6 +18,6 @@ public class KeepOnlyInventory {
         // Use NeoForge to bootstrap the Common mod.
         Constants.LOG.info("Hello NeoForge world!");
         CommonClass.init();
-
+        MidnightConfig.init(Constants.MOD_ID, NeoConfig.class);
     }
 }

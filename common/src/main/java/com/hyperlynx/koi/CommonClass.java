@@ -4,6 +4,8 @@ import com.hyperlynx.koi.platform.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
 
+import java.util.ServiceConfigurationError;
+
 // This class is part of the common project meaning it is shared between all supported loaders. Code written here can only
 // import and access the vanilla codebase, libraries used by vanilla, and optionally third party libraries that provide
 // common compatible binaries. This means common code can not directly use loader specific concepts such as Forge events
@@ -24,6 +26,7 @@ public class CommonClass {
         // the platform specific approach.
         if (Services.PLATFORM.isModLoaded("koi")) {
             Constants.LOG.info("Hello to koi");
+            Constants.LOG.info("Config says keepXP is: {}", Services.CONFIG.keepXP());
         }
     }
 }
